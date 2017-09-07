@@ -1,4 +1,5 @@
 CFLAGS=-g -O2
+LDFLAGS=-lpthread
 
 all: cpu mem threads.v1 threads.v0 io
 clean:
